@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/more_apps"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/exit"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+
+</menu>

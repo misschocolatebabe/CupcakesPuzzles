@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Cupcakes Puzzles</string>
+
+	<string name="puzzle_size_x_y">{0} x {1}</string>
+	<string name="finished_type_expert_puzzle_in_n_moves">Finished {0} puzzle {1,choice,0#|1# (expert mode)"} in {2} {2,choice,0#moves|1#move|1&lt;moves}.</string>
+	<string name="type_expert_puzzle_n_moves_so_far">{0} puzzle.\n{2} {2,choice,0#moves|1#move|1&lt;moves} so far.{1,choice,0#|1#\nExpert mode is on.}</string>
+	<string name="message_stats_best_avg_plays">{0}\n\nBest: {1} {1,choice,0#moves|1#move|1&lt;moves}\nAverage: {2,number,0.##} moves\nPlays: {3}</string>
+	
+	<string name="label_ok">OK</string>
+	
+	<string name="label_show_numbers_none">None</string>
+	<string name="label_show_numbers_some">Some</string>
+	<string name="label_show_numbers_all">All</string>
+	
+	<string name="title_stats">Stats</string>
+	<string name="title_new_record">New record!</string>
+	<string name="title_solved">Solved!</string>
+	<string name="title_select_tiling">Select tiling</string>
+	<string name="title_show_numbers">Show numbers</string>
+	
+	<string name="menu_new_image">New image</string>
+	<string name="menu_select_image">Select image</string>
+	<string name="menu_take_photo">Take photo</string>
+	<string name="menu_scramble">Scramble</string>
+	<string name="menu_change_tiling">Change tiling</string>
+	<string name="menu_show_numbers">Show numbers: {0}</string>
+	<string name="menu_stats">Stats</string>
+	<string name="menu_about">About</string>
+	<string name="menu_main">Main Menu</string>
+
+	<string name="title_about">n Tile Puzzle</string>
+			
+	<string name="error_could_not_load_image">Could not load image.</string>
+	<string name="error_could_not_load_image_error">Could not load image: {0}</string>
+	<string name="error_could_not_create_directory_to_store_photo">Could not create directory to store photo.</string>
+	
+	<string name="toast_disabled_expert_mode">Turning on numbers has disabled expert mode.</string>
+	<string name="toast_not_enabled_expert_mode">Numbers are off. Expert mode will be enabled when the puzzle is scrambled.</string>
+
+	<string name="enter">ENTER</string>
+
+	<string name="content_about">
+		Hi, i am Misschocolate \n
+		Copyright 2016 Big Kids Apps
+	</string>
+
+	<!-- Admob Real Ads ID -->
+	<string name="banner_ad_unit_id">ca-app-pub-7545904400703466/9719586635</string>
+	<string name="admob_interstitial_id">ca-app-pub-7545904400703466/2196319833</string>
+
+	<!-- ca-app-pub-7545904400703466/9719586635-->
+	<!-- ca-app-pub-7545904400703466/2196319833-->
+
+	<!-- Admob Test Ads ID -->
+	<string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="admob_interstitial_id_test">ca-app-pub-3940256099942544/1033173712</string>
+
+	<!-- Main Menu Title options selections -->
+	<string name="about">About</string>
+	<string name="share">Share</string>
+	<string name="rate">Rate me</string>
+	<string name="feedback">Feedback</string>
+	<string name="more_apps">More...</string>
+	<string name="exit">Exit</string>
+
+	<!-- About page -->
+	<string name="develop">Developed By：</string>
+	<string name="other_apps">Other Apps by Me：</string>
+
+	<!-- Main Menu Detail options selections -->
+	<string name="exit_title">Confirm Exit</string>
+	<string name="exit_msg">Do you really want to exit？</string>
+	<string name="exit_yes">Yes</string>
+	<string name="exit_no">No</string>
+	<string name="share_msg">Hi, take a look at: https://play.google.com/store/apps/details?id=com.bigkidsapps.misschocolatebabe&amp;hl=en</string>
+	<string name="share_via">Share via：</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="apps_support">Misschocolatebabe Support：</string>
+	<string name="email_client">Choose an email client:</string>
+	<string name="dev_name">Misschocolate Babe</string>
+	<string name="empty_text" />
+	<string name="text_about">Hi, my name is Misschocolate</string>
+
+</resources>

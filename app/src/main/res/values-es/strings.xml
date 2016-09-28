@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Rompecabezas de las magdalenas</string>
+
+	<string name="puzzle_size_x_y">{0} x {1}</string>
+	<string name="finished_type_expert_puzzle_in_n_moves">Terminado {0} rompecabezas {1,elección,0#|1# (modo experto)"} in {2} {2,elección,0#mueve|1#movimiento|1&lt;mueve}.</string>
+	<string name="type_expert_puzzle_n_moves_so_far">{0} rompecabezas.\n{2} {2,elección,0#mueve|1#movimiento|1&lt;mueve} hasta aquí.{1,elección,0#|1#\nEl modo experto está en.}</string>
+	<string name="message_stats_best_avg_plays">{0}\n\nMejor: {1} {1,elección,0#mueve|1#movimiento|1&lt;mueve}\nPromedio: {2,number,0.##} mueve\nJugar: {3}</string>
+	
+	<string name="label_ok">OK</string>
+	
+	<string name="label_show_numbers_none">Ninguna</string>
+	<string name="label_show_numbers_some">Algunos</string>
+	<string name="label_show_numbers_all">Todas</string>
+	
+	<string name="title_stats">Estadística</string>
+	<string name="title_new_record">Nuevos registros!</string>
+	<string name="title_solved">Resuelto!</string>
+	<string name="title_select_tiling">Seleccione los azulejos</string>
+	<string name="title_show_numbers">Mostrar los números</string>
+	
+	<string name="menu_new_image">Nueva imagen</string>
+	<string name="menu_select_image">Seleccionar imagen</string>
+	<string name="menu_take_photo">Tomar foto</string>
+	<string name="menu_scramble">Lucha</string>
+	<string name="menu_change_tiling">Cambio del embaldosado</string>
+	<string name="menu_show_numbers">Mostrar los números: {0}</string>
+	<string name="menu_stats">Estadística</string>
+	<string name="menu_about">Acerca de</string>
+	<string name="menu_main">Menú principal</string>
+
+	<string name="title_about">n Embaldosar Rompecabezas</string>
+			
+	<string name="error_could_not_load_image">No se pudo cargar la imagen.</string>
+	<string name="error_could_not_load_image_error">No se pudo cargar la imagen: {0}</string>
+	<string name="error_could_not_create_directory_to_store_photo">No se pudo crear el directorio para almacenar la foto.</string>
+	
+	<string name="toast_disabled_expert_mode">Encendido de números tiene el modo experto discapacitados.</string>
+	<string name="toast_not_enabled_expert_mode">Los números están apagados. Se activará el modo experto cuando se encuentre codificada del rompecabezas.</string>
+
+	<string name="enter">ENTRAR</string>
+
+	<string name="content_about">
+		Hola, yo soy Misschocolate \n
+		Derechos de autor 2016 Big Kids Apps
+	</string>
+
+	<!-- Admob Real Ads ID -->
+	<string name="banner_ad_unit_id">ca-app-pub-7545904400703466/9719586635</string>
+	<string name="admob_interstitial_id">ca-app-pub-7545904400703466/2196319833</string>
+
+	<!-- ca-app-pub-7545904400703466/9719586635-->
+	<!-- ca-app-pub-7545904400703466/2196319833-->
+
+	<!-- Admob Test Ads ID -->
+	<string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="admob_interstitial_id_test">ca-app-pub-3940256099942544/1033173712</string>
+
+	<!-- Main Menu Title options selections -->
+	<string name="about">Acerca de</string>
+	<string name="share">Compartir</string>
+	<string name="rate">Tarifa Yo</string>
+	<string name="feedback">Realimentación</string>
+	<string name="more_apps">Más...</string>
+	<string name="exit">Salida</string>
+
+	<!-- About page -->
+	<string name="develop">Desarrollado por：</string>
+	<string name="other_apps">Otras Aplicaciones de mí：</string>
+
+	<!-- Main Menu Detail options selections -->
+	<string name="exit_title">Confirmar Salir</string>
+	<string name="exit_msg">¿Realmente desea salir？</string>
+	<string name="exit_yes">Sí</string>
+	<string name="exit_no">No</string>
+	<string name="share_msg">Hola, eche un vistazo a: https://play.google.com/store/apps/details?id=com.bigkidsapps.misschocolatebabe&amp;hl=en</string>
+	<string name="share_via">Compartir via：</string>
+	<string name="yes">Sí</string>
+	<string name="no">No</string>
+	<string name="apps_support">Misschocolatebabe Apoyo：</string>
+	<string name="email_client">Elija un cliente de correo electrónico:</string>
+	<string name="dev_name">Misschocolate Babe</string>
+	<string name="empty_text" />
+	<string name="text_about">Hola, mi nombre es Misschocolate</string>
+
+</resources>

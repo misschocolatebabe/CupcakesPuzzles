@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9900"
+    tools:context=".AboutActivity" >
+
+	<LinearLayout
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="5dp"
+		android:layout_alignParentTop="true"
+		android:id="@+id/develop_by">
+
+		<TextView
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="#fff"
+			android:id="@+id/textView1"
+			android:paddingBottom="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/develop" />
+
+		<TextView
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textStyle="bold"
+			android:textColor="#eee"
+			android:id="@+id/textView2"
+			android:paddingBottom="5dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/dev_name"
+			/>
+
+		<TextView
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="#fff"
+			android:padding="6dp"
+			android:id="@+id/otherApps"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/other_apps" />
+
+	</LinearLayout>
+
+	<HorizontalScrollView
+		android:id="@+id/hori_scroll"
+		android:layout_below="@+id/develop_by"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<ImageView
+				android:id="@+id/app_image01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb01"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.chocspuzzle15&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"
+				/>
+
+			<ImageView
+				android:id="@+id/app_image02"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb02"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.chococrush&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image03"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb03"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.chocspad&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image04"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb04"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.bmichocolator&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image05"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb05"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.cupcakespuzzles&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image06"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb06"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.dogswallpapers&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image07"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb07"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.catswallpapers&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+			<ImageView
+				android:id="@+id/app_image08"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/tb08"
+				android:tag="https://play.google.com/store/apps/details?id=com.bigkidsapps.ediramadangreeting&amp;hl=en"
+				android:onClick="openBrowser"
+				android:padding="5dp"
+				android:autoLink="web"/>
+
+		</LinearLayout>
+
+	</HorizontalScrollView>
+
+	<ImageView
+		android:id="@+id/imgFreeApp"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:background="@drawable/img_icon"
+		android:onClick="freeAppClick"
+		android:enabled="false"
+		android:layout_alignTop="@+id/btnRewardedVideo"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true" />
+
+
+	<Button
+		android:id="@+id/btnRewardedVideo"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:onClick="btnShowRewardedClick"
+		android:background="@drawable/tv_icon"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="@string/text_about"
+		android:id="@+id/textView"
+		android:gravity="center"
+		android:layout_alignTop="@+id/btnRewardedVideo"
+		android:layout_toRightOf="@+id/btnRewardedVideo"
+		android:layout_toEndOf="@+id/btnRewardedVideo"
+		android:layout_toLeftOf="@+id/imgFreeApp"
+		android:layout_toStartOf="@+id/imgFreeApp" />
+
+	<com.startapp.android.publish.banner.Banner
+		android:id="@+id/startAppBanner1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/startAppBanner2"
+		android:layout_centerHorizontal="true" />
+
+	<com.startapp.android.publish.banner.Banner
+		android:id="@+id/startAppBanner2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/copyright"
+		android:layout_alignLeft="@+id/startAppBanner1"
+		android:layout_alignStart="@+id/startAppBanner1" />
+
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:id="@+id/copyright">
+
+
+		<TextView
+			android:textAppearance="?android:textAppearanceSmall"
+			android:textColor="#fff"
+			android:id="@+id/copyright_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Powered By: Big Kids Apps" />
+
+	</LinearLayout>
+
+</RelativeLayout>
